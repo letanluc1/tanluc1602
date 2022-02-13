@@ -1,0 +1,184 @@
+
+@font-face {
+    font-family: myfont;
+    src: url(../font/Roboto-Light.ttf);
+  }
+
+
+body{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+    overflow: hidden;
+    height: 100vh;
+    background-color: black;
+}
+
+
+
+/* TOP HEADER */
+.header{
+    width: 100vw;
+    height: 70px;
+    background-color:#ffffff;
+    position:fixed;
+}
+.icon{
+    width: 10%;
+    height: 100%;
+    background-color:#ffffff;
+    float:left;
+    padding:30px 50px;
+    box-sizing: border-box;
+}
+.logo{
+    width:25%;
+    height:100%;
+    background-color: #ffffff;
+    float:left;
+}
+.logo img{
+    width:70%;
+    padding-left:18%;
+    padding-top: 7%;
+    box-sizing: border-box;
+}
+.top-menu{
+    width:65%;
+    height:100%;
+    background-color: #ffffff;
+    float:left;
+}
+.top-menu ul{
+    list-style:none;
+    padding-right: 5%;
+}
+.top-menu ul li{
+    float:right;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.top-menu ul li a{
+    color: black;
+    text-decoration: none;
+}
+.top-menu ul li a:hover {
+    color: #969696;
+  }
+
+
+
+
+/* BOTTOM MENU */
+.bottom-menu{
+    width:60%;
+    height:5%;
+    background-color: #ffffff;
+    position:fixed;
+    left: 20%;
+    top: 90%;
+    display:flex;
+    justify-content: center;
+    font-family: myfont;
+}
+
+
+
+/* NOI DUNG */
+.container{
+    width: 600%;
+    height: 100vh;
+    background-color: #ffffff;
+    scroll-behavior: smooth;
+    overflow-y: scroll;
+}
+.noidung1{
+    width: 100vw;
+    height:100vh;
+    background-color:#ffffff;
+    float:left;
+    padding: 150px;
+    box-sizing: border-box;
+    font-family: myfont;
+}
+.pic1{
+    width:80%;
+    height:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.noidung2{
+    width: 100vw;
+    height:100vh;
+    background-color:#ffffff;
+    float:left;
+    padding: 150px;
+    box-sizing: border-box;
+    font-family: myfont;
+}
+.pic2{
+    width:80%;
+    height:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+.noidung3{
+    width: 100vw;
+    height:100vh;
+    background-color:#ffffff;
+    float:left;
+    padding: 150px;
+    box-sizing: border-box;
+    font-family: myfont;
+}
+.pic3{
+    width:80%;
+    height:100%;
+    margin-left:auto;
+    margin-right:auto;
+}
+
+/* ICON MENU */
+
+body {
+    font-family: myfont;
+  }
+  
+  .sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #ffffff;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 60px;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 15px;
+    color: #000000;
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #969696;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    right: 25px;
+    font-size: 36px;
+    margin-left: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
